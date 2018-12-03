@@ -210,6 +210,7 @@ public class GoToWorldTutorialActivity extends TutorialActivity implements Robot
 
             // Store the FreeFrame.
             savedLocations.put(location, locationFrame);
+            Log.i(TAG,"locationFrame"+locationFrame+"transform"+transform+"robotFrame"+robotFrame+"TransformBuilder"+TransformBuilder.create().fromXTranslation(0)+" locationFrame.update(this.robotFrame, transform, 0L)"+ robotFrame+transform+0L);
         });
     }
 
